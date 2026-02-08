@@ -1,0 +1,51 @@
+neighborhood,total_barriers,avg_severity,barrier_density_index
+Industrial District,11481,3.28,37668.0
+Ravenna,5282,3.41,18015.0
+Mount Baker,4924,2.77,13630.0
+Wallingford,3470,3.25,11270.0
+North Beacon Hill,4147,2.65,11001.0
+Whittier Heights,2684,3.42,9180.0
+Roosevelt,2634,3.07,8097.0
+Green Lake,2650,2.83,7496.0
+Loyal Heights,2110,2.98,6291.0
+View Ridge,1699,3.4,5771.0
+Fremont,2133,2.57,5486.0
+Phinney Ridge,1782,2.84,5068.0
+University District,2035,2.29,4654.0
+Leschi,1669,2.78,4632.0
+Broadway,1824,2.47,4513.0
+North Queen Anne,1602,2.71,4346.0
+Sunset Hill,1464,2.83,4141.0
+Stevens,1666,2.38,3959.0
+Madrona,1408,2.74,3863.0
+Briarcliff,1714,2.25,3858.0
+Southeast Magnolia,1385,2.65,3673.0
+Lawton Park,1326,2.76,3661.0
+Minor,1400,2.34,3276.0
+Bryant,1125,2.8,3151.0
+East Queen Anne,1197,2.6,3117.0
+West Woodland,1275,2.28,2901.0
+Atlantic,1165,2.37,2766.0
+Adams,1037,2.58,2676.0
+West Queen Anne,1086,2.44,2653.0
+Harrison/Denny-Blaine,904,2.78,2511.0
+Montlake,880,2.73,2400.0
+Laurelhurst,1001,2.28,2285.0
+Interbay,637,3.33,2121.0
+Windermere,696,2.99,2083.0
+Lower Queen Anne,946,2.11,1996.0
+Belltown,1067,1.78,1904.0
+Madison Park,681,2.75,1870.0
+First Hill,736,2.46,1807.0
+South Lake Union,756,1.89,1427.0
+Mann,669,2.09,1398.0
+Central Business District,842,1.63,1370.0
+Yesler Terrace,453,2.85,1291.0
+Eastlake,387,2.51,971.0
+Pioneer Square,539,1.77,953.0
+International District,452,2.1,949.0
+Portage Bay,328,2.33,765.0
+Sand Point,188,3.29,618.0
+Harbor Island,170,2.98,506.0
+Pike-Market,140,1.94,272.0
+Westlake,127,2.09,265.0
