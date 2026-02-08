@@ -1,7 +1,7 @@
 # Where Seattle Stops Moving
 ### DubsTech Datathon 2026 - Access to Everyday Life Track
 
-**Author:** Daniswara Jati Reksopramudyo
+**Team:** DJR
 **Links:** [GitHub Repository](https://github.com/djreksopramudyo/DubsTech-Datathon-2026)
 
 ---
