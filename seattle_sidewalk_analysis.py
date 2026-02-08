@@ -28,7 +28,7 @@ df = df.rename(columns={
 # using median because severity is ordinal (1-5), mean would give decimals
 missing_sev = df["severity"].isna().sum()
 df["severity"] = df["severity"].fillna(df["severity"].median())
-print(f"Imputed {missing_sev} missing severity values")
+print(f"Assigned {missing_sev} missing severity values")
 
 # remove 0,0 coordinates and NaNs
 bad_coords = (((df["longitude"] == 0) & (df["latitude"] == 0)) 
@@ -183,9 +183,9 @@ print("Saved -> chart_barrier_types.html")
 
 # 4. SUMMARY
 
-print("\n" + "=" * 65)
+print("\n" + "=" * 24)
 print("FINAL SUMMARY FOR REPORT")
-print("=" * 65)
+print("=" * 24)
 
 # Temp vs Perm stats
 perm_stats = df['is_temporary'].value_counts(normalize=True) * 100
