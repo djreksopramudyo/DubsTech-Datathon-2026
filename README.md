@@ -10,7 +10,7 @@
 ## 1. Summary
 Seattle is famous for being accessible, but the data tells a different story. This project looks at the **Project Sidewalk** dataset to go beyond just counting broken sidewalks.
 
-I created a new score called the **Mobility Friction Index (MFI)** to find out which neighborhoods are actually the hardest to navigate. I found that while the **Industrial District** has the most barriers, residential areas like **Ravenna** are surprisingly difficult because their barriers are more severe. I also found that **99%** of these issues are permanent, not just temporary construction.
+I created a new score called the **Mobility Friction Index (MFI)** to find out which neighborhoods are actually the hardest to navigate. I found that while the **Industrial District** has the most barriers, residential areas like **Ravenna** are surprisingly difficult because their barriers are more severe. I also found that **99%** of these issues are permanent.
 
 
 ## 2. Methodology & Process
