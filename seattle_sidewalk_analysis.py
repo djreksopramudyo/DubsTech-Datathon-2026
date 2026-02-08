@@ -1,6 +1,6 @@
 # Seattle Sidewalk Accessibility Analysis
 # DubsTech Datathon 2026
-# Author: Daniswara Jati Reksopramudyo
+# Team: DJR
 
 # flake8: noqa
 
@@ -57,7 +57,7 @@ stats["barrier_density_index"] = (stats["total_barriers"] * stats["avg_severity"
 stats["avg_severity"] = stats["avg_severity"].round(2)
 stats["barrier_density_index"] = stats["barrier_density_index"].round(1)
 
-# Sort by our new index
+# Sort by new index
 stats = (
     stats
     .sort_values("barrier_density_index", ascending=False)
@@ -87,7 +87,7 @@ fig = px.bar(
     y="neighborhood",
     orientation="h",
     color="avg_severity",
-    color_continuous_scale="YlOrRd",  # Yellow to Red looks like "Danger"
+    color_continuous_scale="YlOrRd",
     labels={
         "total_barriers": "Total Barrier Count",
         "neighborhood": "Neighborhood",
@@ -187,7 +187,7 @@ print("\n" + "=" * 65)
 print("FINAL SUMMARY FOR REPORT")
 print("=" * 65)
 
-# Bonus: Temp vs Perm stats
+# Temp vs Perm stats
 perm_stats = df['is_temporary'].value_counts(normalize=True) * 100
 print(f"Permanent Barriers: {perm_stats.get(False, 0):.1f}%")
 print(f"Temporary Barriers: {perm_stats.get(True, 0):.1f}%")
